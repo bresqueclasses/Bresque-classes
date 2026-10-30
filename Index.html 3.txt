@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bresque Classes | Online Learning</title>
+<meta name="description" content="Bresque Classes offers online English, IELTS, Science, Mathematics and Tally Prime classes.">
+<style>
+:root {
+  --navy:#14243a;
+  --gold:#c6a15b;
+  --cream:#f7f5ef;
+  --ink:#263244;
+}
+* {box-sizing:border-box;scroll-behavior:smooth}
+body {
+  margin:0;font-family:Arial,sans-serif;
+  background:var(--cream);color:var(--ink);line-height:1.6;
+}
+header {
+  background:var(--navy);color:white;padding:18px 5%;
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:12px;
+}
+.brand {font-size:23px;font-weight:bold;letter-spacing:1px}
+.brand span {color:var(--gold)}
+nav {display:flex;gap:15px;flex-wrap:wrap}
+nav a {color:white;text-decoration:none;font-size:14px}
+nav a:hover {color:var(--gold)}
+.hero {
+  background:linear-gradient(120deg,#14243a,#304968);
+  color:white;text-align:center;padding:75px 18px;
+}
+.crest {
+  border:2px solid var(--gold);width:82px;height:82px;
+  border-radius:50%;display:grid;place-items:center;
+  margin:auto;color:var(--gold);font-size:27px;font-weight:bold;
+}
+.hero h1 {font-size:clamp(34px,7vw,58px);margin:12px 0}
+.hero h1 span {color:var(--gold)}
+.hero p {max-width:680px;margin:12px auto;color:#e5e9ef}
+.btn {
+  display:inline-block;background:var(--gold);color:var(--navy);
+  text-decoration:none;padding:12px 22px;border-radius:5px;
+  font-weight:bold;margin:12px 5px;
+}
+.btn.outline {background:transparent;color:white;border:1px solid var(--gold)}
+section {padding:45px 5%;max-width:1150px;margin:auto}
+h2 {color:var(--navy);font-size:27px;margin-top:0}
+h3 {color:var(--navy)}
+.lead {color:#5d6877}
+.cards {
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  gap:17px;
+}
+.card {
+  background:white;border:1px solid #e7e1d5;border-radius:10px;
+  padding:22px;box-shadow:0 5px 18px #14243a0d;
+}
+.symbol {font-size:26px;color:var(--gold)}
+.price {font-size:22px;font-weight:bold;color:var(--navy)}
+.note {
+  background:#fff8e9;border-left:4px solid var(--gold);
+  padding:15px;border-radius:5px;margin:15px 0;
+}
+.table-wrap {overflow-x:auto;background:white;border-radius:9px;margin:15px 0 28px}
+table {width:100%;border-collapse:collapse;min-width:480px}
+th {background:var(--navy);color:white;text-align:left}
+th,td {padding:11px;border-bottom:1px solid #e7e7e7}
+tr:nth-child(even) td {background:#faf9f6}
+.price-col {font-weight:bold;color:var(--navy)}
+.offer {border-top:3px solid var(--gold)}
+footer {background:var(--navy);color:white;text-align:center;padding:32px 15px}
+footer strong {color:var(--gold)}
+.whatsapp {
+  position:fixed;right:17px;bottom:17px;z-index:10;
+  background:#168c52;color:white;text-decoration:none;
+  padding:13px 18px;border-radius:30px;font-weight:bold;
+  box-shadow:0 4px 15px #0003;
+}
+@media(max-width:600px) {
+  header {justify-content:center;text-align:center}
+  nav {justify-content:center}
+  .hero {padding:55px 15px}
+  section {padding:35px 16px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">BRESQUE <span>CLASSES</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#fees">Fee Chart</a>
+    <a href="#offers">Offers</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<div class="hero" id="home">
+  <div class="crest">BC</div>
+  <p style="letter-spacing:3px;color:#c6a15b">LEARN • GROW • ACHIEVE</p>
+  <h1>BRESQUE <span>CLASSES</span></h1>
+  <p><b>The only simple and sleek teaching institute in the world 🌎</b></p>
+  <p>Quality online learning, regular practice and student-focused guidance.</p>
+  <a class="btn" href="#courses">Explore Courses</a>
+  <a class="btn outline" href="https://wa.me/916239457398?text=Hello%20Bresque%20Classes%2C%20I%20would%20like%20to%20enquire%20about%20admission.">Enquire on WhatsApp</a>
+</div>
+<section>
+  <h2>Welcome to Bresque Classes</h2>
+  <p class="lead">
+    Bresque Classes provides online educational support for school students
+    and learners preparing for IELTS and Tally Prime. Our focus is on clear
+    teaching, regular practice and consistent progress.
+  </p>
+  <div class="cards">
+    <div class="card"><div class="symbol">✦</div><h3>Online Learning</h3><p>Learn from the comfort of your home.</p></div>
+    <div class="card"><div class="symbol">✦</div><h3>Regular Tests</h3><p>Weekly tests to support your progress.</p></div>
+    <div class="card"><div class="symbol">✦</div><h3>Board Guidance</h3><p>Additional guidance and benefits for eligible board classes.</p></div>
+  </div>
+</section>
+<section id="courses">
+  <h2>Our Courses</h2>
+  <div class="cards">
+    <div class="card"><div class="symbol">📘</div><h3>English</h3><p>45 minutes each working day.</p><p>Fees according to board and class.</p></div>
+    <div class="card"><div class="symbol">🌍</div><h3>IELTS Preparation</h3><p>Listening, Reading, Writing and Speaking.</p><p>3 hours daily.</p><div class="price">₹12,000/month</div></div>
+    <div class="card"><div class="symbol">🔬</div><h3>Science</h3><p>45 minutes each working day.</p><p>Fees according to board and class.</p></div>
+    <div class="card"><div class="symbol">➗</div><h3>Mathematics</h3><p>45 minutes each working day.</p><p>Fees according to board and class.</p></div>
+    <div class="card"><div class="symbol">💻</div><h3>Tally Prime</h3><p>45 minutes per class.</p><p>Monday, Wednesday and Thursday.</p><div class="price">₹5,000/month</div></div>
+  </div>
+  <div class="note">
+    <b>IELTS benefits:</b> One free weekly Mock Speaking Test and one free weekly
+    LRW test (Listening, Reading and Writing). Both are included in the monthly fee.
+  </div>
+</section>
+<section id="fees">
+<h2>School Fee Structure</h2>
+<p class="lead">All fees are monthly. Classes are available online only.</p>
+<h3>CBSE – Monthly Fees</h3>
+<div class="table-wrap"><table>
+<tr><th>Class</th><th>Subject / Package</th><th>Fee</th></tr>
+<tr><td>6</td><td>English + Science + Mathematics</td><td>₹1,500</td></tr>
+<tr><td>7</td><td>English + Science + Mathematics</td><td>₹1,700</td></tr>
+<tr><td>8</td><td>English + Science + Mathematics</td><td>₹1,900</td></tr>
+<tr><td>9</td><td>English</td><td>₹700</td></tr>
+<tr><td>9</td><td>Science</td><td>₹1,000</td></tr>
+<tr><td>9</td><td>Mathematics</td><td>₹1,000</td></tr>
+<tr><td>10</td><td>English</td><td>₹800</td></tr>
+<tr><td>10</td><td>Science</td><td>₹1,000</td></tr>
+<tr><td>10</td><td>Mathematics</td><td>₹1,000</td></tr>
+<tr><td>11</td><td>English</td><td>₹900</td></tr>
+<tr><td>11</td><td>Physics / Chemistry / Biology / Mathematics</td><td>₹1,200 each</td></tr>
+<tr><td>12</td><td>English</td><td>₹1,100</td></tr>
+<tr><td>12</td><td>Physics / Chemistry / Biology / Mathematics</td><td>₹1,500 each</td></tr>
+</table></div>
+<h3>ICSE – Monthly Fees</h3>
+<div class="table-wrap"><table>
+<tr><th>Class</th><th>Subject / Package</th><th>Fee</th></tr>
+<tr><td>6</td><td>English + Science + Mathematics</td><td>₹1,700</td></tr>
+<tr><td>7</td><td>English + Science + Mathematics</td><td>₹1,900</td></tr>
+<tr><td>8</td><td>English + Science + Mathematics</td><td>₹2,100</td></tr>
+<tr><td>9</td><td>English</td><td>₹900</td></tr>
+<tr><td>9</td><td>Science / Mathematics</td><td>₹1,100 each</td></tr>
+<tr><td>10</td><td>English</td><td>₹1,000</td></tr>
+<tr><td>10</td><td>Science / Mathematics</td><td>₹1,200 each</td></tr>
+<tr><td>11</td><td>English</td><td>₹1,100</td></tr>
+<tr><td>11</td><td>Physics / Chemistry / Biology / Mathematics</td><td>₹1,400 each</td></tr>
+<tr><td>12</td><td>English</td><td>₹1,200</td></tr>
+<tr><td>12</td><td>Physics / Chemistry / Biology / Mathematics</td><td>₹1,600 each</td></tr>
+</table></div>
+<h3>PSEB – Monthly Fees</h3>
+<div class="table-wrap"><table>
+<tr><th>Class</th><th>Subject / Package</th><th>Fee</th></tr>
+<tr><td>7</td><td>English + Science + Mathematics</td><td>₹1,600</td></tr>
+<tr><td>8</td><td>English + Science + Mathematics</td><td>₹1,800</td></tr>
+<tr><td>9</td><td>English</td><td>₹600</td></tr>
+<tr><td>9</td><td>Science / Mathematics</td><td>₹900 each</td></tr>
+<tr><td>10</td><td>English</td><td>₹700</td></tr>
+<tr><td>10</td><td>Science / Mathematics</td><td>₹900 each</td></tr>
+<tr><td>11</td><td>English</td><td>₹800</td></tr>
+<tr><td>11</td><td>Physics / Chemistry / Biology / Mathematics</td><td>₹1,100 each</td></tr>
+<tr><td>12</td><td>English</td><td>₹1,000</td></tr>
+<tr><td>12</td><td>Physics / Chemistry / Biology / Mathematics</td><td>₹1,400 each</td></tr>
+</table></div>
+<p class="small">Note: PSEB tuition starts from Class 7. No Class 6 PSEB package is offered.</p>
+<h3>Classes 11 and 12 – Streams</h3>
+<div class="cards">
+  <div class="card"><h3>Medical</h3><p>Physics, Chemistry, Biology and English.</p></div>
+  <div class="card"><h3>Non-Medical</h3><p>Physics, Chemistry, Mathematics and English.</p></div>
+</div>
+</section>
+<section id="offers">
+<h2>Special Offers & Benefits</h2>
+<div class="cards">
+  <div class="card offer">
+    <h3>CBSE</h3>
+    <p>Limited-time launch offer: Classes 10 and 12 receive extra board guidance worth ₹2,000 free with the first package.</p>
+  </div>
+  <div class="card offer">
+    <h3>ICSE</h3>
+    <p>Extra guidance according to the selected package.</p>
+  </div>
+  <div class="card offer">
+    <h3>PSEB – Class 10</h3>
+    <p>Free Science and English model test papers with the first two-month package, stated total value ₹2,400.</p>
+  </div>
+  <div class="card offer">
+    <h3>PSEB – Classes 11 & 12</h3>
+    <p>Free model test papers worth ₹550 per subject for all four subjects, total stated value ₹2,200 per student.</p>
+  </div>
+</div>
+<div class="note">
+  <h3>Benefits for All Three Boards</h3>
+  <ul>
+    <li>Weekly tests.</li>
+    <li>Pre-board examinations for students in board classes.</li>
+    <li>During the board examination period, one extra free hour of classes for Class 10 and Class 12.</li>
+  </ul>
+</div>
+</section>
+<section>
+<h2>Class Information</h2>
+<div class="cards">
+  <div class="card"><h3>Teaching Mode</h3><p>Online only.</p></div>
+  <div class="card"><h3>Business Hours</h3><p>9:00 AM – 6:00 PM.</p></div>
+  <div class="card"><h3>Minimum Batch Size</h3><p>15 students.</p></div>
+  <div class="card"><h3>Fee Schedule</h3><p>Monthly payment.</p></div>
+</div>
+<p class="small">English, Science and Mathematics classes are 45 minutes each, every working day. Tally Prime classes are 45 minutes each on Monday, Wednesday and Thursday. IELTS classes are 3 hours daily. Tally scheduling may be adjusted according to student requirements.</p>
+</section>
+<section>
+<h2>Admission & Payment Policy</h2>
+<div class="note">
+  <ul>
+    <li>All classes are conducted online only.</li>
+    <li>Fees are payable monthly through online payment only.</li>
+    <li>Payment details are shared personally through WhatsApp after admission details are discussed and admission is confirmed.</li>
+    <li>Please do not make payments to any unverified number or account.</li>
+    <li>Batch and joining details are shared after payment verification.</li>
+  </ul>
+</div>
+</section>
+<section id="contact">
+<h2>Contact Bresque Classes</h2>
+<div class="card">
+  <h3>Admissions & Enquiries</h3>
+  <p><b>WhatsApp Business Contact:</b> 6239457398</p>
+  <p><b>Location:</b> Amritsar, Punjab</p>
+  <p>For course information, fee details and admission enquiries, message us on WhatsApp.</p>
+  <a class="btn" href="https://wa.me/916239457398?text=Hello%20Bresque%20Classes%2C%20I%20would%20like%20to%20know%20about%20admission.">Message Us on WhatsApp</a>
+</div>
+</section>
+<footer>
+  <p><strong>BRESQUE CLASSES</strong></p>
+  <p>Learn • Grow • Achieve</p>
+  <p>Online Learning | Monthly Fee Structure</p>
+  <p>WhatsApp: 6239457398</p>
+  <p class="small" style="color:#d6dce4">© 2026 Bresque Classes. All rights reserved.</p>
+</footer>
+<a class="whatsapp" href="https://wa.me/916239457398?text=Hello%20Bresque%20Classes%2C%20I%20have%20an%20enquiry.">WhatsApp Us</a>
+</body>
+</html>
+
